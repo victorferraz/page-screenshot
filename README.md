@@ -2,8 +2,7 @@
 
 It uses [puppeteer](https://github.com/GoogleChrome/puppeteer) to take screenshot
 
-
-##How to run
+## How to run
 
 ```
 git clone git@github.com:victorferraz/page-screenshot.git
