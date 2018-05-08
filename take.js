@@ -1,14 +1,3 @@
-# page-screenshot
-
-It uses [puppeteer](https://github.com/GoogleChrome/puppeteer) to take screenshot
-
-
-##How to run
-
-```
-git clone git@github.com:victorferraz/page-screenshot.git
-npm install
-
 const TakePrint = require('./screenshot');
 const array = [
   {width: 1024, height: 768},
@@ -18,5 +7,3 @@ const array = [
 ];
 const data = {path: 'tmp', sizes: array, url: 'http://www.bbc.com/'};
 new TakePrint(data).run();
-
-```
